@@ -28,17 +28,17 @@ Skool made simplicity a feature, and for a lot of communities that was enough. B
 
 Skool is a great starter platform. It runs out of room for growing communities in these specific ways:
 
-- **No custom domain** — you're stuck on `skool.com/your-community`, which hurts brand and SEO
-- **No events** — no built-in event pages, RSVPs, or reminders
-- **No real-time chat** — feed and DMs only, no live chat rooms
-- **No API** — you cannot automate signup, tagging, cross-platform sync, or integrations
-- **No built-in email marketing** — you still need ConvertKit, Mailchimp, or Beehiiv
-- **Single $99/mo plan** — no tiers, no freemium, no way to offer free access alongside paid
-- **Limited gamification** — points and levels only, no streaks, badges, or leagues
-- **No affiliate program** — no built-in referral tracking or payouts
-- **Limited moderator tools** — coarse-grained permissions, no per-space roles
-- **No white-labeling** — Skool branding is visible everywhere
-- **Basic analytics** — no cohort retention, no funnel breakdown, no export
+- **No custom domain** - you're stuck on `skool.com/your-community`, which hurts brand and SEO
+- **No events** - no built-in event pages, RSVPs, or reminders
+- **No real-time chat** - feed and DMs only, no live chat rooms
+- **No API** - you cannot automate signup, tagging, cross-platform sync, or integrations
+- **No built-in email marketing** - you still need ConvertKit, Mailchimp, or Beehiiv
+- **Single $99/mo plan** - no tiers, no freemium, no way to offer free access alongside paid
+- **Limited gamification** - points and levels only, no streaks, badges, or leagues
+- **No affiliate program** - no built-in referral tracking or payouts
+- **Limited moderator tools** - coarse-grained permissions, no per-space roles
+- **No white-labeling** - Skool branding is visible everywhere
+- **Basic analytics** - no cohort retention, no funnel breakdown, no export
 
 ### What Tenant.so Adds
 
@@ -53,7 +53,7 @@ Skool is a great starter platform. It runs out of room for growing communities i
 - Crypto (including Monero/XMR), BNPL, and ACH payments at 0% platform fee
 - Affiliate program with built-in coupon and payout management
 - Full REST/tRPC API for automation and integrations
-- Multi-tenant architecture — run multiple communities from one account
+- Multi-tenant architecture - run multiple communities from one account
 - 31+ built-in integrations (replace Zapier)
 
 ---
@@ -187,7 +187,7 @@ Skool has one feed; Tenant.so has many spaces you can group logically. Take adva
 4. Resource lists (tools, templates, links)
 
 **What to leave behind:**
-- Old day-to-day discussion threads (start fresh — it's healthier)
+- Old day-to-day discussion threads (start fresh - it's healthier)
 - Outdated announcements
 - Old points leaderboards (Tenant.so's league system will regenerate rankings organically)
 
@@ -247,13 +247,13 @@ Treat the export limitations as forcing function to curate what's actually worth
 ### Recommended Structure (for a typical Skool refugee)
 
 **Groups:**
-- Free Public Group — landing space + community-only content
-- Members Group — courses, events, premium discussion
-- (optional) VIP Group — coaching, mastermind, direct access
+- Free Public Group - landing space + community-only content
+- Members Group - courses, events, premium discussion
+- (optional) VIP Group - coaching, mastermind, direct access
 
 **Spaces inside Members Group:**
 - General Discussion (FEED)
-- Live Chat (CHAT) — the thing Skool couldn't do
+- Live Chat (CHAT) - the thing Skool couldn't do
 - Weekly Events (EVENT)
 - Course: [Your Signature Course] (COURSE)
 - Resource Library (FEED, pinned)
@@ -344,7 +344,7 @@ Glad you're here.
 ## Post-Migration Checklist
 
 ### Week 1
-- [ ] Monitor signup rate — target 40%+ in the first week
+- [ ] Monitor signup rate - target 40%+ in the first week
 - [ ] Personally welcome every new signup
 - [ ] Post daily to maintain activity
 - [ ] Send a reminder email to non-migrated members
