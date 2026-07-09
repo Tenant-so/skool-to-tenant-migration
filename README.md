@@ -2,7 +2,7 @@
 
 > A complete guide for migrating your community from Skool to [Tenant.so](https://tenant.so) — covering members, courses, gamification, payments, and everything in between.
 
-Skool made simplicity a feature, and for a lot of communities that was enough. But once you need a custom domain, events, real-time chat, an API, built-in email, or tiered pricing, Skool's single-plan model starts to feel like a ceiling. This guide walks you from Skool to Tenant.so without dropping members or momentum.
+Skool made simplicity a feature, and for a lot of communities that was enough. But once you need a custom domain, events, real-time chat, an API, built-in email, or truly flexible pricing above the $99/mo Pro tier, Skool starts to feel like a ceiling. This guide walks you from Skool to Tenant.so without dropping members or momentum.
 
 ---
 
@@ -33,9 +33,8 @@ Skool is a great starter platform. It runs out of room for growing communities i
 - **No real-time chat** - feed and DMs only, no live chat rooms
 - **No API** - you cannot automate signup, tagging, cross-platform sync, or integrations
 - **No built-in email marketing** - you still need ConvertKit, Mailchimp, or Beehiiv
-- **Single $99/mo plan** - no tiers, no freemium, no way to offer free access alongside paid
+- **Two-tier ceiling** - Hobby ($9/mo, 10% transaction fee) and Pro ($99/mo, 2.9% transaction fee). No true freemium, no way to offer free access alongside paid, no premium tiers above $99
 - **Limited gamification** - points and levels only, no streaks, badges, or leagues
-- **No affiliate program** - no built-in referral tracking or payouts
 - **Limited moderator tools** - coarse-grained permissions, no per-space roles
 - **No white-labeling** - Skool branding is visible everywhere
 - **Basic analytics** - no cohort retention, no funnel breakdown, no export
@@ -60,18 +59,18 @@ Skool is a great starter platform. It runs out of room for growing communities i
 
 ## What You'll Save (or Gain)
 
-Skool is only $99/mo, so the pure dollar savings depend on which tools you've bolted on top. Most Skool communities we've talked to are running a stack that looks like this:
+Skool tops out at $99/mo (Pro tier), so the pure dollar savings depend on which tools you've bolted on top. Most Skool communities we've talked to are running a stack that looks like this:
 
 | Current Skool Stack | Monthly Cost | With Tenant.so |
 |---------------------|-------------|----------------|
-| Skool | $99/mo | Included |
+| Skool Pro | $99/mo (+ 2.9% transaction fee) | Included |
 | ConvertKit or Mailchimp (email) | $79/mo | Included |
 | Zapier (automation) | $49/mo | Included |
 | Luma or Eventbrite (events) | $0-30/mo | Included |
 | Discord bot dev/hosting | $10-50/mo | Included |
-| **Total** | **$237-307/mo** | **One platform** |
+| **Total** | **$237-307/mo + txn fees** | **One platform** |
 
-**Annual savings: $2,844 - $3,684**
+**Annual savings: $2,844 - $3,684 (before transaction fees)**
 
 Beyond dollars, the bigger unlock is what you couldn't do at all on Skool: custom domain, API automation, tiered pricing, freemium funnels, and events without a second tool.
 
@@ -91,8 +90,9 @@ Beyond dollars, the bigger unlock is what you couldn't do at all on Skool: custo
 | AI course assistant | No | Yes (Jarvis, RAG) |
 | Native Discord bot | No | Yes |
 | Free member tier | No | Yes |
-| Tiered pricing | No (single $99/mo plan) | Yes |
+| Tiered pricing | Limited ($9 Hobby / $99 Pro) | Yes (fully flexible) |
 | Affiliate program | Yes | Yes |
+| Transaction fee | 2.9-10% | 0% (platform), Stripe fees only |
 | DMs | Yes | Yes |
 | Polls | No | Yes |
 | Quizzes | No | Yes |
@@ -266,9 +266,9 @@ Treat the export limitations as forcing function to curate what's actually worth
 
 ### Payments
 
-Skool's flat $99/mo doesn't translate cleanly, so use the migration as a chance to redesign pricing:
+Skool's two-tier structure ($9 Hobby or $99 Pro) doesn't translate cleanly, so use the migration as a chance to redesign pricing:
 
-- **Old:** flat $99/mo Skool
+- **Old:** $9 Hobby or $99 Pro on Skool (plus 2.9-10% transaction fee)
 - **New:** free tier + $49-79/mo core + $149-199/mo premium (with courses, events, coaching)
 
 You'll likely find the average revenue per member goes up, not down.
